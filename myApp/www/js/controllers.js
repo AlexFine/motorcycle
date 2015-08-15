@@ -1,13 +1,15 @@
 angular.module('starter.controllers', ['ionic'])
 
 .controller('DashCtrl', function ($scope, $cordovaGeolocation) {
-var posOptions = {timeout: 10000, enableHighAccuracy: true};
+    
+    
+var posOptions = {timeout: 10000, enableHighAccuracy: false};
   $cordovaGeolocation
     .getCurrentPosition(posOptions)
     .then(function (position) {
       var lat  = position.coords.latitude
       var long = position.coords.longitude
-      //alert("" + long + "" + lat);
+      alert("" + long + "" + lat);
     }, function(err) {
       // error
     });
@@ -15,7 +17,7 @@ var posOptions = {timeout: 10000, enableHighAccuracy: true};
   var watchOptions = {
     frequency : 1000,
     timeout : 3000,
-    enableHighAccuracy: true // may cause errors if true
+    enableHighAccuracy: false // may cause errors if true
   };
 
   var watch = $cordovaGeolocation.watchPosition(watchOptions);
