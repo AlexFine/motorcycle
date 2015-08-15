@@ -39,5 +39,9 @@
     "karma-ng-scenario": "~0.1.0",
     "karma-junit-reporter": "~0.2.2",
     "karma-coverage": "~0.2.1"
-  }
+  },
+  "cordovaPlugins": [],
+  "cordovaPlatforms": [
+    "ios"
+  ]
 }

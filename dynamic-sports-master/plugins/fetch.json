@@ -1,0 +1,38 @@
+{
+    "org.apache.cordova.console": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.console/package"
+        }
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.device/package"
+        }
+    },
+    "org.apache.cordova.file": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.file/package"
+        }
+    },
+    "org.apache.cordova.file-transfer": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.file-transfer/package"
+        }
+    },
+    "org.apache.cordova.geolocation": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.geolocation/package"
+        }
+    },
+    "org.apache.cordova.statusbar": {
+        "source": {
+            "type": "local",
+            "path": "/var/folders/3p/p2c_7fv14tb21zgsqnp0c8h80000gp/T/org.apache.cordova.statusbar/package"
+        }
+    }
+}
